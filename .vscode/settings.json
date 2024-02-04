@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "python.defaultInterpreterPath": "C:\\Users\\Ryzen 5 3600x\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+    "explorer.compactFolders": false,
+    "redhat.telemetry.enabled": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.wordWrap": "on"
+}
