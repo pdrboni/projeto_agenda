@@ -5,5 +5,5 @@
     "redhat.telemetry.enabled": true,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
 }
