@@ -1,20 +1,24 @@
 {% extends "global/base.html" %}
 
 {% block content %}
+
+
 {% if page_obj %}
     <div class="responsive-table">
         <table class="contacts-table">
             <caption class="table-caption">
+                {% if user.username %}
+                <h5>{{user.username}}</h5>
+                {% endif %}
                 Contacts
             </caption>
-
             <thead>
                 <tr class="table-row table-row-header">
-                    <th class="table-header">ID</th>
-                    <th class="table-header">First name</th>
-                    <th class="table-header">Last name</th>
-                    <th class="table-header">Phone</th>
-                    <th class="table-header">Email</th>
+                    <th class="table-header"><b>ID</b></th>
+                    <th class="table-header"><b>First name</b></th>
+                    <th class="table-header"><b>Last name</b></th>
+                    <th class="table-header"><b>Phone</b></th>
+                    <th class="table-header"><b>Email</b></th>
                 </tr>
             </thead>
 
